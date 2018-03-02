@@ -7,5 +7,5 @@
   
   <project name="linux" path="common" revision="482c5c3657afa66f7f16bc9907ba3da5997caf44"/>
   <project name="u-boot" path="uboot" revision="9e6df60fe8b91d94fb8cda03e0b78d71168d8541"/>
-  <project name="android_vendor_widevine" path="vendor/widevine" revision="5b6f2ca792b8f44735fab75dc72715c3e2378bd1"/>
+
 </manifest>
