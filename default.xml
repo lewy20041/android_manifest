@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
+  <remote fetch="https://github.com/khadas/" name="github"/>
   
-  <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r18"
-           remote="aosp"
-           sync-j="4" />
+  <default remote="github" revision="refs/heads/Oreo" sync-j="4"/>
   
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project name="linux" path="common" revision="482c5c3657afa66f7f16bc9907ba3da5997caf44"/>
+  <project name="u-boot" path="uboot" revision="9e6df60fe8b91d94fb8cda03e0b78d71168d8541"/>
 
 </manifest>
